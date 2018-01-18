@@ -1,0 +1,23 @@
+html{
+	background: url('http://www.kezanari.com/wp-content/uploads/2017/10/desktop-background-world-map-inspirational-world-map-desktop-backgrounds-wallpaper-cave-of-desktop-background-world-map.jpg');
+	background-size: 1366px 768px;
+}
+
+.country-info {
+	font-size: 20px;
+	font-family: 'Anton';
+	color: #F39C12;
+}
+
+.country-info #flag {
+	width: 250px;
+	height: 250px;
+}
+
+.no-country-info {
+	font-size: 20px;
+	font-family: 'Anton';
+	color: #A93226;
+	display: block;
+	text-align: center;
+}

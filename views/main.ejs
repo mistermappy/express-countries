@@ -1,0 +1,22 @@
+<html>
+<head>
+	<link href='/style.css' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+<% if (countries[country]) {%>
+<div class='country-info'>
+<h1>Country Bio</h1>
+	<span>Name:<%= countries[country].name %></span><br>
+	<span>Native Name:<%= countries[country].nativeName %></span><br>
+	<span>Code:<%= countries[country].code %></span><br>
+	<span>Population:<%= countries[country].population %></span><br>
+	<span>Region:<%= countries[country].region %></span><br>
+	<span><img id='flag' src="<%=countries[country].flag%>" />
+</div>
+<% } else { %>
+  <h1 class='no-country-info'> No Country Found With That Code!!! </h1>
+<% } %>
+
+</body>
+</html>
